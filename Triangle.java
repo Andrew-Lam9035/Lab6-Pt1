@@ -7,7 +7,7 @@ import java.util.Scanner;
  * 
  *
  * @author Andrew Lam, alam001@student.sdccd.edu
- * @version v1.0
+ * @version v1.1
  * @since 9/27/2026
  */
 public class Triangle
@@ -32,9 +32,9 @@ public class Triangle
  * Constructs a Triangle object using the specified name, base,
  * and height values.
  * 
- * @param nameInput - Input for the name of the triangle
- * @param baseInput  - Input for the base of the triangle
- * @param heightInput - Input for the height of the triangle
+ * @param nameInput Input for the name of the triangle
+ * @param baseInput  Input for the base of the triangle
+ * @param heightInput Input for the height of the triangle
  */   
     public Triangle(String nameInput, double baseInput, double heightInput){
         
@@ -69,13 +69,13 @@ public class Triangle
         System.out.print("What is the triangle's height: ");
         height = keyboard.nextDouble();
         
-        System.out.println(); //New line to seperate
+        System.out.println(); //New line to separate
     }
-    
+
 /**
  * Changes the name of the triangle object to the specified name
  * 
- * @param newName - program input for new name for the triangle
+ * @param newName Program input for new name for the triangle
  */   
     public void setName(String newName){
         
@@ -85,7 +85,7 @@ public class Triangle
 /**
  * Changes the base of the triangle object to the specified base
  * 
- * @param newBase - program input for new base for the triangle
+ * @param newBase Program input for new base for the triangle
  */  
     public void setBase(double newBase){
         
@@ -95,7 +95,7 @@ public class Triangle
 /**
  * Changes the height of the triangle object to the specified height
  * 
- * @param newHeight - program input for new height for the triangle
+ * @param newHeight Program input for new height for the triangle
  */  
     public void setHeight(double newHeight){
         
@@ -105,7 +105,7 @@ public class Triangle
 /**
  * Uses the base and height to get the area of the triangle which is (base * height)/2.0
  * 
- * @return - the area of the triangle
+ * @return The area of the triangle
  */  
 
     public double getArea(){
